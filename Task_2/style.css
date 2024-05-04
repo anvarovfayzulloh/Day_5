@@ -1,0 +1,104 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+}
+.container__1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.container__2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__1{
+  width: 150px;                 
+  display: flex;                
+  flex-direction: column;       
+  border: 1px solid #80DEEA;  
+  border-radius: 4px;           
+  overflow: hidden;             
+  margin: 5px;   
+  height: 115px;               
+}
+.card__2{
+  width: 150px;                 
+  display: flex;                
+  flex-direction: column;       
+  border: 1px solid #FFE082; 
+  border-radius: 4px;           
+  overflow: hidden;             
+  margin: 5px;   
+  height: 115px;               
+}
+.card__3{
+  width: 150px;                 
+  display: flex;                
+  flex-direction: column;       
+  border: 1px solid #EF9A9A; 
+  border-radius: 4px;           
+  overflow: hidden;             
+  margin: 5px;   
+  height: 115px;               
+}
+.card__header{
+  color: #0097A7;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #80DEEA;
+  background-color: #E0F7FA;
+  padding: 5px 10px;
+}
+.card__header_1{
+  color: #0097A7;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid ;
+  border-color: #FFE082;
+  padding: 5px 10px;
+}
+.card__header_2{
+  color: #D32F2F;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid ;
+  border-color: #EF9A9A;
+  padding: 5px 10px;
+}
+.material-icons {
+  font-size: 36px;
+  color: #0097A7;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: 16px;
+}
+#or-icons{
+  color: #FFA000;
+}
+#or-icons_2{
+  color: #D32F2F;
+}
+.card__text{
+  color: #0097A7;
+  font-size: 12px;
+  text-align: center;
+}
